@@ -105,3 +105,82 @@ button {
     position: relative;
     bottom: -100px;
 }
+
+
+/* Custom Accordion Styles */
+.accordion-button {
+  background-color: #18382B;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+
+.accordion-button:hover {
+  background-color: #165b44;
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: "-";
+}
+
+.accordion-button.collapsed::after {
+  content: "+";
+}
+
+.accordion-body {
+  background-color: #F3F3F3;
+  color: #18382B;
+}
+
+.col-md-4 {
+    padding: 10px; 
+  }
+  
+  .col-md-4 img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .col-md-4 h2 {
+    font-size: 24px; 
+    margin-top: 10px; 
+  }
+  
+  .col-md-4 p {
+    font-size: 16px; 
+    margin-bottom: 20px; 
+  }
+ 
+  .carousel-inner {
+    display: flex;
+    overflow: hidden; 
+  }
+  
+  .carousel-item {
+    height: 100vh;
+  }
+  
+  .carousel-item.active {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .carousel-item .container {
+    margin-top: 50px; 
+    overflow-y: auto; 
+  }
+  
+  .carousel-item p {
+    font-size: 18px;
+  }
+
+  .accordion-body img {
+    display: block; 
+    max-width: 40%; 
+    height: auto; 
+    margin: 10px auto; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
