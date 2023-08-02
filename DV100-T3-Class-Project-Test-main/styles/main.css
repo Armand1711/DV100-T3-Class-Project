@@ -184,3 +184,86 @@ button {
     border-radius: 8px; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   }
+
+
+  /* Buttons */
+button {
+  padding: 12px 20px;
+  background-color: #18382B;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #165b44;
+}
+
+/*  Wishlist Page */
+.container {
+  margin-top: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table th {
+  background-color: #F3F3F3;
+  font-size: 18px;
+}
+
+.table td {
+  padding: 8px;
+  text-align: center;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background-color: #c82333;
+}
+
+
+.table img {
+  width: 250px; 
+  height: 250px; 
+  object-fit: cover; 
+  border-radius: 8px; 
+}
+
+
+.table td {
+  text-align: center;
+}
+
+
+.table img {
+  display: block;
+  margin: auto;
+}
+
+
+
+#hero-image-2 {
+  height: 100px;
+  width: 300px; 
+  object-fit:  fill; 
+}
+
+
+.carousel-item .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

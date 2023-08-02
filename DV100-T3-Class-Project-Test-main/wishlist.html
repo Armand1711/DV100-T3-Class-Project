@@ -38,6 +38,55 @@
       </div>
     </nav>
 
+    <div class="container mt-5 pt-5">
+      <h2>Your Wishlist</h2>
+      <table class="table table-bordered mt-3">
+        <thead>
+          <tr>
+            <th scope="col">Plant Image</th>
+            <th scope="col">Plant Name</th>
+            <th scope="col">Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td><img src="assets/inspiration-6.jpeg" alt="Wishlist Plant 1"></td>
+            <td>Monstera Deliciosa</td>
+            <td><button class="btn btn-danger btn-sm remove-btn">Remove</button></td>
+          </tr>
+
+          <tr>
+            <td><img src="assets/plant1.png" alt="Wishlist Plant 2"></td>
+            <td>Ficus Tree</td>
+            <td><button class="btn btn-danger btn-sm remove-btn">Remove</button></td>
+          </tr>
+
+          <tr>
+            <td><img src="assets/inspiration-7.jpeg" alt="Wishlist Plant 3"></td>
+            <td>Fern</td>
+            <td><button class="btn btn-danger btn-sm remove-btn">Remove</button></td>
+          </tr>
+
+          <tr>
+            <td><img src="assets/indoor-plant-2.jpg" alt="Wishlist Plant 4"></td>
+            <td>Red Leaf Palm</td>
+            <td><button class="btn btn-danger btn-sm remove-btn">Remove</button></td>
+          </tr>
+
+          <tr>
+            <td><img src="assets/popular-plant-1.jpg" alt="Wishlist Plant 5"></td>
+            <td>Zebra Fern</td>
+            <td><button class="btn btn-danger btn-sm remove-btn">Remove</button></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+    
+    
+
+</div>
     <!-- Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
@@ -46,3 +95,11 @@
 
   </body>
 </html>
+
+<script>
+  $(document).ready(function () {
+    $(".remove-btn").click(function () {
+      $(this).closest("tr").remove();
+    });
+  });
+</script>
