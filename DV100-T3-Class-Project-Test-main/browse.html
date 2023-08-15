@@ -43,24 +43,82 @@
         <!-- Header -->
         <h2>Browse Plants</h2>
 
+  <!-- Filter and Sort Buttons -->
+  <div class="btn-group mt-3" role="group">
+    <button id="sort-by-price" type="button" class="btn btn-secondary">Sort by Price</button>
+    <button id="sort-by-name" type="button" class="btn btn-secondary">Sort by Name</button>
+    <button id="show-sale-items" type="button" class="btn btn-secondary">Show Sale Items</button>
+  </div>
         <!-- Plants List Cards -->
-        <div class="row pt-5">
-            <div class="col-4">
-
-                <!-- Card -->
-                <div class="card">
-                    <img src="assets/plant1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h4 class="card-title">Ficus Tree</h4>
-                      <p class="card-text" id="priceText">R320</p>
-                      <p class="card-text mt-4" id="descriptionText">Graceful and lush, this charming indoor plant boasts glossy, emerald-green leaves that effortlessly brighten any space. Easy to care for and standing at an ideal height, our Ficus Tree is the perfect addition to elevate your interior décor.</p>
-                
-                    </div>
-                  </div>
+        <div class="row pt-5" id="plantsList">
+          <!-- Plant Cards will be added here -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/plant1.png" class="card-img-top" alt="Plant 1">
+              <div class="card-body">
+                <h5 class="card-title">Ficus Tree</h5>
+                <p class="card-text">Price: R320</p>
+                <p class="card-text">Graceful and lush, this charming indoor plant boasts glossy, emerald-green leaves that effortlessly brighten any space. Easy to care for and standing at an ideal height, our Ficus Tree is the perfect addition to elevate your interior décor.</p>
+                <p class="card-text">On Sale: Yes</p>
+              </div>
             </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/indoor-plant-1.jpg" class="card-img-top" alt="Plant 2">
+              <div class="card-body">
+                <h5 class="card-title">Monstera Deliciosa</h5>
+                <p class="card-text">Price: R250</p>
+                <p class="card-text">The Monstera Deliciosa, also known as the Swiss Cheese Plant, is famous for its unique split leaves. It's a low-maintenance plant that adds a tropical vibe to any space.</p>
+                <p class="card-text">On Sale: No</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/inspiration-7.jpeg" class="card-img-top" alt="Plant 3">
+              <div class="card-body">
+                <h5 class="card-title">Snake Plant</h5>
+                <p class="card-text">Price: R180</p>
+                <p class="card-text">The Snake Plant, with its upright sword-like leaves, is a hardy and resilient plant. It's perfect for beginners and can thrive in low light conditions. It's known for its air-purifying capabilities.</p>
+                <p class="card-text">On Sale: Yes</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/inspiration-10jpeg.jpeg" class="card-img-top" alt="Plant 4">
+              <div class="card-body">
+                <h5 class="card-title">Lavender</h5>
+                <p class="card-text">Price: R150</p>
+                <p class="card-text">Lavender is a fragrant herb that not only adds a pleasant aroma to your space but also has relaxing properties. Its beautiful purple flowers and gray-green foliage make it a favorite for gardens and windowsills.</p>
+                <p class="card-text">On Sale: No</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/inspiration-4.jpg" class="card-img-top" alt="Plant 5">
+              <div class="card-body">
+                <h5 class="card-title">Succulent Assortment</h5>
+                <p class="card-text">Price: R120</p>
+                <p class="card-text">Our Succulent Assortment features a variety of small succulent plants known for their unique shapes and water-storing abilities. These easy-to-care-for plants are perfect for adding a touch of green to your desk or shelf.</p>
+                <p class="card-text">On Sale: No</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/inspiration-8.jpeg" class="card-img-top" alt="Plant 6">
+              <div class="card-body">
+                <h5 class="card-title">Bird of Paradise</h5>
+                <p class="card-text">Price: R170</p>
+                <p class="card-text">The Bird of Paradise plant is a tropical beauty known for its stunning, banana-like leaves and vibrant orange flowers. It adds an exotic and dramatic element to your home decor.</p>
+                <p class="card-text">On Sale: Yes</p>
+              </div>
+            </div>
+          </div>
         </div>
-
-    </div>
     
 
     <!-- Javascript -->
